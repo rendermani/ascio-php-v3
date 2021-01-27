@@ -1,0 +1,31 @@
+{
+    "name": "ascio/php-v3",
+    "description": "Generated php classes for Ascio API v3",
+    "authors": [
+        {
+            "name": "Manuel Lautenschlager",
+            "email": "manuel.lautenschlager@ascio.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "ext-soap": "*"
+    },
+    "require-dev": {
+        "wsdl2phpgenerator/wsdl2phpgenerator" : "*",
+        "phpunit/phpunit": "^8"
+
+    },
+    "autoload": {
+        "psr-4": {            
+            "ascio\\v3\\": "service" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"    
+        }
+    }
+}
