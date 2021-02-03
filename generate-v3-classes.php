@@ -6,7 +6,8 @@ function generate($inputFile, $outputDir,$ns) {
         new \Wsdl2PhpGenerator\Config(array(
                 'inputFile' 	=> $inputFile,
                 'outputDir' 	=> $outputDir,
-        		'namespaceName' => $ns
+                'namespaceName' => $ns,
+                'constructorParamsDefaultToNull' => true
             )
         )
     );
