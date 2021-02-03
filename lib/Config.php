@@ -19,6 +19,9 @@ class Config {
 	public function get($environment = "testing") : ServerConfig {
 		return $this->configs[$environment];
 	}
+	public static function getEmail() {
+		return "test@test.com";
+	}
 }
 class ServerConfig {
 	private $wsdl = array();	
