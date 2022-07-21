@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {            
-            "ascio\\v3\\": "service",
+            "ascio\\v3\\": "v3/service",
             "ascio\\lib\\": "lib" 
         }
     },
